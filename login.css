@@ -1,0 +1,170 @@
+
+body {
+    background-color: #0e0b0b;
+}
+
+.logo {
+    color: white;
+}
+
+.header {
+    background-color: #100909;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.right ul {
+    display: flex;
+    gap: 6rem;
+}
+ul a .fa-solid{
+    color: white;
+  }
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+}
+
+.auth-form {
+    background: #323131;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color:  #0a0909;
+    color: white;
+}
+
+
+.auth-form h2 {
+    margin-bottom: 1.5rem;
+    color: white;
+}
+.auth-form p {
+    color: white;
+    font-size: 1rem;
+    margin-right: 9rem ;
+    
+}
+
+.auth-form p a {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
+.form-group input::placeholder {
+    color: white;
+    opacity: 0.8;
+    
+}
+
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background: #d43737;
+    color: rgb(231, 229, 229);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+button:active{
+    background-color: green;
+}
+
+
+.auth-form p {
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.auth-form a {
+    color:white;
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 17px;
+    text-align: center;
+}
+
+
+.footer h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.footer h2::before,
+.footer h2::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 7px 25px;
+    margin: 0 5px;
+}
+
+
+#p1 {
+    background-color: red;
+}
+#p1:hover{
+    background-color: green;
+}
+
+#p2 {
+    background-color: rgb(130, 83, 173);
+}
+#p2:hover{
+    background-color: green;
+}
+#p3{
+    background-color: rgb(21, 78, 211);
+}
+#p3:hover{
+    background-color: green;
+
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
