@@ -46,22 +46,30 @@ ul a .fa-solid{
     border-radius: 4px;
     background-color:  #0a0909;
     color: white;
+    margin-top: 20px;
 }
 
 
 .auth-form h2 {
     margin-bottom: 1.5rem;
     color: white;
+  
+    margin-bottom: 6px;
+   
 }
 .auth-form p {
-    color: white;
+    color:rgb(190, 188, 188);
     font-size: 1rem;
     margin-right: 9rem ;
+    line-height: 4px;
+     
+   
     
 }
 
 .auth-form p a {
     color: white;
+    text-decoration: none;
 }
 
 .form-group {
@@ -71,7 +79,7 @@ ul a .fa-solid{
 
 
 .form-group input {
-    width: 100%;
+    width: 95%;
     padding: 0.8rem;
     border: 1px solid white;
     border-radius: 4px;
