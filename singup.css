@@ -50,7 +50,7 @@ ul a .fa-solid{
 }
 
 .auth-form p {
-    color: white;
+    color: rgb(220, 216, 216);
     font-size: 1rem;
     text-align: left;
     margin: 15px 0;
@@ -60,12 +60,13 @@ ul a .fa-solid{
     color: white;
 }
 
+
 .form-group {
     margin-bottom: 1rem;
 }
 
 .form-group input {
-    width: 100%;
+    width: 95%;
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 4px;
