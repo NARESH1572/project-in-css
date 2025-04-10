@@ -912,10 +912,11 @@ hr {
   .fheader p {
     font-size: 0.8rem;
   }
+  .fheader i{
+    font-size: 1rem ;
+  }
   
-  /* .fheader i {
-    font-size: 1rem;
-  } */
+  
 }
 
 
