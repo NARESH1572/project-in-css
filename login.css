@@ -29,10 +29,11 @@ ul a .fa-solid{
     align-items: center;
     min-height: 80vh;
     padding: 2rem;
+   
 }
 
 .auth-form {
-    background: #323131;
+    background: #151313;
     padding: 2rem;
     border-radius: 8px;
     width: 100%;
