@@ -167,12 +167,9 @@ input[name="slide"] {
   overflow: hidden;
 }
 
-.slides {
-  display: flex;
-  width: 300%;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-}
+
+
+
 
 .slide {
   width: 100%;
@@ -183,6 +180,33 @@ input[name="slide"] {
   background-color: #000;
   position: relative;
 }
+ .slides {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: slide 5s infinite ;
+}
+@keyframes slide {
+  0%,
+  25% {
+    transform: translateX(0%);
+  }
+
+  33%,
+  58% {
+    transform: translateX(-100%);
+  }
+
+  66%,
+  91% {
+    transform: translateX(-200%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+} 
 
 .middleleft {
   flex: 1;
@@ -276,9 +300,12 @@ button:hover {
   background: #444;
   cursor: pointer;
   transition: background 0.3s ease;
+
 }
 
-input#slide1:checked ~ .slider-container .slides {
+
+
+ input#slide1:checked ~ .slider-container .slides {
   transform: translateX(0%);
 }
 
@@ -294,10 +321,10 @@ input#slide1:checked ~ .dots label[for="slide1"],
 input#slide2:checked ~ .dots label[for="slide2"],
 input#slide3:checked ~ .dots label[for="slide3"] {
   background: #fff;
-}
+} 
 
 
-/* Responsive */
+
 
 @media (max-width: 1200px) {
     .middle h1 {
