@@ -761,51 +761,32 @@ hr {
     width: 250px;
   }
 }
-
 @media (max-width: 992px) {
-  .items-container {
-    justify-content: center;
-  }
-  .items {
-    width: 45%;
-    min-width: 200px;
-  }
+  .nav { gap: 15px; }
+  .card { width: 45%; }
 }
 
 @media (max-width: 768px) {
-  .header4 {
-    padding: 20px;
-  }
-  .items-container {
-    margin-top: 30px;
-    gap: 15px;
-  }
-  .items {
-    width: 100%;
-    max-width: 300px;
-    justify-content: center;
-  }
+  .nav { 
+    flex-wrap: wrap;
+     padding: 15px; }
+  .nav a { 
+    font-size: 0.9em; 
+    padding: 5px 8px; }
+  .card { width: 100%; 
+    max-width: 350px; }
+  .card img { 
+    height: 200px; }
 }
 
 @media (max-width: 576px) {
-  .header4 h1 {
-    font-size: 1.8rem;
-  }
-  .items {
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-  }
-  .items i {
-    font-size: 1.8rem;
-  }
-  .text-group h3 {
-    font-size: 1.1rem;
-  }
-  .text-group p {
-    font-size: 0.9rem;
-  }
+  .header3 h1 { font-size: 1.5em; }
+  .nav { gap: 8px; }
+  .cards { padding: 10px; }
 }
+
+
+
 
 
 
