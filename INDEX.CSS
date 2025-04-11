@@ -84,11 +84,12 @@ padding: 0;
   transition: background-color 0.3s;
   padding: 5px;
 }
+.cart-btn:hover{
+  background-color: black;
 
-.cart-box .cart-btn:hover {
-  background-color: #e5dede;
-  color: #000;
 }
+
+
 
 .user-icon:hover .user-box {
   display: block;
